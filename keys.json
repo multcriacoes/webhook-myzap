@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "botatendimentomultcria-es-fkie",
+  "private_key_id": "ad1cc859daa85c40338e71a5272284d296f276b7",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQC69Jg+tgKguOXm\n3Xa+Kdp2wWrO8HhWH0g1TFLh5X0rkAOPtGSkGo0zyKRpNQxlkLU91G8AfbAeo5N3\nrcCtWzK40j6z//4ajRI2Qbcl3ZSRMUgJVg0fmyTRP0Vha0fsJKfB6AxEUDUubE/n\nvUUkmFLrAlR0uI0enj6HU7AiBUPgAiKxbvGSHrPOcLWPjPMfe8IQI+tKVVoQEFM7\nbZH/Y2whCPIeIs+yH2ujZ/OKd979JIWQmCzYxDiyKLKxJI64aBPAq5ZAY60mos1c\n5whWApG1ODE/p9LpLgvVsPrNupElwhBoQIpH8Kl3lyd/9P2CHAHfHWXm2zWCjrmN\nGsEAhZ8ZAgMBAAECggEAEkbtR1w1346T80D9ZdPjpq58CaUarpi6T3OZurnbxdF7\nd6YUHLL30PMxl5N3FcrS3SuSeoLPH/+v4AhdiNUcnVL4jFJffisCd8lu5UXHS3Z8\n62S9PbTGIarE1qRNULm4qM1NvbP1rwcpvKcVRmGZ4Z3Fse+E5FRmGobE9l57Zz/D\nHaKAqjE7UeETRiafIdYmHq8RQqLetJnLuS+N3sD1Yi2CQ48gaT5kq/JTlhgODKSK\nVO7n7/rzqdKLZdNlI8XONEIl2w0ujUhE8uRv5XFRyjsSZ8sQdOoENs81UmgmIzWf\ngJ5gWA8ExbljvpiE3GxAif2BtHMdXSaHv0HJwT0FvQKBgQD2jx8JXqM6E8tOYhWY\n6VZSFejArbhpW82FIziBV3J01G9INIbo4k5L1d3F4r4RgcWf3v3NrjJnKXMQg76Y\nFvN3AnlAQFIC8oYafLYwiFHmJDHvcDhZn+ecooelzWsraerm8zhQ+d0RBksksBLR\n1ab3pU1+3HpYOMYprv0XMoniYwKBgQDCHTaF10RvanpdLfMqZ8z51VgOnT9E3421\nzUcz9w/ETz3d0CQnXcoYZbu+KQnoyL4S/DtcX7dFk31JTLt4pEtrEyEwrFGw0Vjn\nVPe2w7FCnokCNIvK9TAscJjsuwwMnew6/QIcrcwe02xRIIE35xGM34yMYaZvjsCT\nJw3//UKzUwKBgQDiMNydQOfn0N7zssHzfSUGuzjDAtwqM+EwoeYlqm7DRVwt1ppp\nrat8oOAKuX/7GZ2OlAktFwEAaSM5ZFOGvY9vf6Jy0k8qiwmB5SVTEsxnoI77BW18\ns1jM9sIQ1onZ0xp/82OXzhIDm012g91QCXxatpiIqIXIx5TsCq//Bws91wKBgQCl\nZgLpNC2pyc6NyvNhdKThU/n+KdqZMusqt8kt7BxRJzwN3qaPrIjhFP5N3+YDpdjf\nkHB8G0qsTCn65RjwiP2CNQCY2puY0CiypGGWJ1TI8RDJAkEDJLxxgVesjwyLS5zX\n/nFoQmak9X1b+xhfq9H2eRznGOWaNMa+HA7/yqqk5QKBgB/hDBnvDf8/KuOSU6uL\nZlaKHZkEqOXT+Q3h36qF1bm8zEYjWL2Fci6vV9CHwiaQybiKxCcoKmnLLgtwisBQ\n9auTUwMVYBnrPi28D6uu2DIg4CRvvNGT6YmCD2+mVGXkTDq+j+bOdr3WwboTYJp1\nTdE+Z9OZ67XwEFPHg/mfMvZA\n-----END PRIVATE KEY-----\n",
+  "client_email": "botmultcriacoes@botatendimentomultcria-es-fkie.iam.gserviceaccount.com",
+  "client_id": "100605328555452147153",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/botmultcriacoes%40botatendimentomultcria-es-fkie.iam.gserviceaccount.com"
+}

@@ -1,0 +1,23 @@
+{
+  "name": "myzap",
+  "version": "1.0.0",
+  "description": "Free OpenSource Whatsapp Api",
+  "main": "index.js",
+  "scripts": {
+	"start": "node -r dotenv/config myzap/index.js dotenv_config_path=./myzap/.env",
+	"iniciar": "node index.js"
+  },
+  "author": "Bill Barsch",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "*",
+    "cors": "^2.8.5",
+    "dialogflow": "*",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "mime": "^2.4.6",
+    "rxjs": "^6.6.3",
+    "uuid": "*",
+    "venom-bot": "^2.0.1"
+  }
+}

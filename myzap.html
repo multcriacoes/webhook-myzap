@@ -1,0 +1,84 @@
+<h1>STATUS</h1>
+
+<style>
+    .red {
+        color: red
+    }
+
+    .green {
+        color: green
+    }
+</style>
+
+<b id="quantidade">0</b> Mensagens a serem enviadas com prioridade.
+<br>
+<b id="quantidade_2">0</b> Mensagens a serem enviadas em baixa prioridade.
+<br>
+<br>
+Status: <span id="status">Carregando...</span>
+<br>
+<div style="text-align: center;">
+    <img id='qrcode' style="width: 420px; height: 420px; text-align: center;">
+</div>
+
+<script>
+
+    function getQRCode(callback) {
+        var total = new XMLHttpRequest();
+        total.onreadystatechange = callback
+        total.open("GET", "http://173.199.124.69:3333/qrcode?sessionName=marcioclaro", true);
+        total.send();
+    }
+
+
+    setInterval(function () {
+        qtd.innerHTML = ret.total
+        qtd2.innerHTML = ret.total_2
+        let getqrcode = getQRCode(function () {
+            if (this.readyState == 4 && this.status == 200) {
+                let ret = JSON.parse(this.responseText);
+                console.log(ret)
+                let qr = document.getElementById('qrcode')
+                if (ret.message == 'QRCODE' || ret.message == 'UNPAIRED_IDLE') {
+                    qr.setAttribute('src', ret.qrcode)
+                    let status = document.getElementById('status')
+                    status.innerHTML = 'Inativo'
+                    status.className = 'red'
+                } else {
+                    if (ret.message == 'CONNECTED') {
+                        qr.style = 'display: None'
+                        let status = document.getElementById('status')
+                        status.innerHTML = 'Ativado'
+                        status.className = 'green'
+                    } else {
+                        let status = document.getElementById('status')
+                        status.innerHTML = 'Inativo'
+                        status.className = 'red'
+                    }
+                }
+            }
+        })
+
+
+    }, 1000);
+
+    function startSession(callback) {
+        var total = new XMLHttpRequest();
+        total.onreadystatechange = callback
+        total.open("GET", "http://173.199.124.69:3333/start?sessionName=marcioclaro", true);
+        total.send();
+    }
+
+
+    function startarSession() {
+        let getsess = startSession(function () {
+            if (this.readyState == 4 && this.status == 200) {
+                ret = JSON.parse(this.responseText);
+                console.log(ret)
+            }
+        })
+    }
+
+    startarSession();
+
+</script>
